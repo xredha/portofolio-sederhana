@@ -1,0 +1,65 @@
+.slider h3,
+.slider h5,
+.card-title {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.valign-wrapper p {
+  margin-left: 20px;
+}
+
+.biography {
+  text-align: justify;
+  text-indent: 7%;
+}
+
+.parallax-container {
+  height: 420px;
+}
+
+.parallax {
+  filter: grayscale(1);
+  opacity: 50% !important;
+}
+
+.sponsorship h3,
+.card-image {
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.sponsorship img {
+  max-width: 180px;
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5));
+  margin-top: 20px;
+}
+
+.sponsorship img:hover {
+  cursor: pointer;
+}
+
+.card-image img {
+  max-height: 150px;
+  filter: brightness(75%);
+}
+
+.card-content p {
+  text-align: justify;
+}
+
+section, footer {
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-container {
+    height: 600px;
+  }
+  .card-image img {
+    max-height: 100%;
+  }
+
+  .gallery img {
+    margin-top: 10px;
+  }
+}
